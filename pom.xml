@@ -83,6 +83,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<properties>
+        <sonar.host.url>http://18.116.44.73:9000</sonar.host.url>
+        <sonar.login>ee8fb29a4a66cd42797e363efa000e7768ab129a</sonar.login>
+    </properties>
 	<build>
 		<plugins>
 			<plugin>
